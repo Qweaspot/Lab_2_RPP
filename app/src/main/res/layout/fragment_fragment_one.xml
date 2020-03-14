@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentOne">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="264dp"
+        android:layout_height="113dp"
+        android:layout_gravity="center|top"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAlignment="center" />
+
+    <com.example.lab_2_rpp.DynamicImageView
+        android:id="@+id/dynamicImageView"
+        android:layout_width="433dp"
+        android:layout_height="452dp"
+        android:layout_gravity="center|center_vertical"
+        android:src="@mipmap/ic_launcher" />
+
+</FrameLayout>
