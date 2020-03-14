@@ -20,6 +20,6 @@ class FragmentOne constructor(page: String) : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         textView.text = item
-        Picasso.get().load("https://raw.githubusercontent.com/wesleywerner/ancient-tech/02decf875616dd9692b31658d92e64a20d99f816/src/images/tech/" + item).into(technology_image)
+        Picasso.get().load("https://raw.githubusercontent.com/wesleywerner/ancient-tech/02decf875616dd9692b31658d92e64a20d99f816/src/images/tech/" + item).into(dynamicImageView)
     }
 }
